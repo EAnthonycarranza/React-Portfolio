@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- This button will only be displayed on mobile views -->
+        <button id="menu-toggle" class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>    
+    </header>
+
+    <div class="hero-image"></div>
+    <div class="white-background"></div>
+
+    <main>
+      <section id="about">
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./Assets/IMG_0007.jpeg" alt="Eduardo Carranza" class="profile-pic">
+            </div>
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p class="about-description">
+                    Hello! My name is <strong>Eduardo Carranza</strong> and I'm born and raised in San Antonio, TX.
+                    I've always had an interest in computer programming from a younger age to now!
+                    I've worked primarily for four years in a family business that focuses on residential home restoration.
+                </p>
+            </div>
+        </div>
+    </section>    
+      <section id="work">
+        <h2>Work</h2>
+        <section class="apps-container">
+          <a href="https://eanthonycarranza.github.io/Challenge01/" class="special-image">
+            <div class="image-wrapper1">
+              <img src="./Assets/web-g51b93b658_1920.jpg" alt="Application 1">
+            </div>
+            <h3>Accessibility</h3>
+          </a>
+
+          <a href="https://eanthonycarranza.github.io/Challenge03/" class="work-item">
+            <div class="image-wrapper">
+              <img src="./Assets/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg" alt="Application 2">
+            </div>
+            <h3>Password Generator</h3>
+          </a>
+        </section>
+
+        <section class="misc-container">
+          <a href="https://eanthonycarranza.github.io/Weather-Dashboard/" class="work-item">
+            <div class="image-wrapper">
+              <img src="./Assets/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg" alt="Application 3">
+            </div>
+            <h3>Weather Dashboard</h3>
+          </a>
+
+          <a href="https://joshua-rowan.github.io/ingredient-recipe-fetcher/" class="work-item">
+            <div class="image-wrapper">
+              <img src="./Assets/food-photographer-jennifer-pallian-8pUjhBm4cLw-unsplash.jpg" alt="Application 4">
+            </div>
+            <h3>Recipe Maker</h3>
+          </a>
+
+          <a href="https://companion-connect-2872c986be71.herokuapp.com/" class="work-item">
+            <div class="image-wrapper">
+              <img src="./Assets/alvan-nee-1VgfQdCuX-4-unsplash.jpg" alt="Application 4">
+            </div>
+            <h3>Companion Connect</h3>
+          </a>
+
+          <!-- Add more application links as needed -->
+        </section>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-buttons">
+          <p><a href="tel:+12109972900" class="contact-button"><i class="fas fa-phone-alt"></i></a></p>
+          <p><a href="mailto:anthonycarranza123@gmail.com" class="contact-button"><i class="fas fa-envelope"></i></a></p>
+          <p><a href="https://github.com/EAnthonycarranza" class="contact-button"><i class="fab fa-github"></i></a></p>
+
+        </div>
+        </section>
+    </main>
+</body>
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+    const menu = document.getElementById("main-nav");
+    menu.classList.toggle('active');
+});
+</script>
+</html>
