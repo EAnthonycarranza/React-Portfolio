@@ -1,0 +1,393 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #AEDFF7 0%, #fcc193 50%, #AEDFF7 100%);
+  min-height: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+header {
+  background: rgba(130, 172, 251, 0.9);
+  position: relative; /* Ensure position is not static */
+  z-index: 1000; /* High z-index value to keep it above other elements */
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul, .menu-collapse {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav ul li a, .menu-collapse li a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background: rgb(236, 137, 107);
+}
+
+.menu-toggler {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggler span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+}
+
+#work h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+#work h3, .card-overlay {
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#work a {
+  text-decoration: none;
+}
+
+/* style.css */
+.custom-card {
+  width: 300px; /* Set your desired card width here */
+  /* Add any other card styles you need */
+}
+
+
+.card, .work-container img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Spacing between cards */
+  justify-content: center;
+}
+
+.work-images div {
+  width: 100%;  
+  overflow: hidden;
+  position: relative;
+  padding-top: 100%; /* Makes it a perfect square */
+}
+
+.work-images {
+  display: grid;
+  gap: 20px; /* spacing between images */
+  
+  /* Default: 2 images per row for smaller screens */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.work-images img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+  margin-bottom: 5px;  /* Minimal space between image and description */
+}
+
+.work-images div:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.work-images a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img, .work-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-description {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+.about-content {
+  margin-bottom: 150px;
+}
+
+.about-card {
+  /* Any specific styles you want to apply to this card */
+  background-color: #f5f5f5; /* Example: Light gray background */
+}
+
+.card.about-card {
+  max-width: 50%; /* or whatever width you desire */
+}
+
+
+/* If you want to style child elements of this card specifically */
+.about-card .card-body {
+  padding: 20px 30px; /* Example: Increase padding */
+}
+
+.about-card .card-title {
+  font-size: 28px; /* Example: Adjust title size */
+}
+
+.about-card .about-description {
+  font-size: 16px; /* Example: Adjust description font size */
+  line-height: 1.5; /* Example: Improve readability */
+}
+
+/* style.css */
+.input-with-margin {
+  margin-top: 100px; /* Adjust the margin-top value as needed */
+}
+
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  border-radius: 50%; /* Set border-radius to 50% for a fully rounded image */
+}
+
+
+.apps-container, .misc-container, .work-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.email-space {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.image-wrapper img, .work-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-styles {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.button-styles:hover {
+  background-color: #0056b3;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
+}
+
+.button-styles:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:nth-of-type(1) {
+  left: 10px;
+}
+
+button:nth-of-type(2) {
+  right: 10px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+
+.background-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.icon-text a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.icon-text a:hover, .icon-text:hover .fa-icon {
+  color: #007BFF;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.icon-circle:hover {
+  background-color: #999;
+}
+
+.icon-circle img {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .work-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggler {
+    display: block;
+  }
+
+  nav ul, .menu-collapse {
+    flex-direction: column; /* Adjust to column layout for small screens */
+    background-color: rgba(130, 172, 251, 0.9); /* You can add a background color if required */
+    width: 100%; /* Occupy full width */
+  }
+
+  nav ul.active, .menu-collapse.active {
+    display: flex; /* Ensures the menu displays when active */
+  }
+
+.menu-collapse {
+  display: none;
+  max-height: 0; /* Initially hide the menu content */
+  overflow: hidden;
+}
+
+.menu-collapse.active {
+  max-height: 200px; /* Set the desired max height for the open menu */
+}
+
+  nav ul li a {
+    width: 100%;
+    text-align: center; /* Center text for small screens */
+  }
+
+  .work-images {
+    grid-template-columns: 1fr; /* Adjust grid for work images */
+  }
+
+  .card {
+    flex: 0 1 100%; /* Adjust card flex properties */
+  }
+}
