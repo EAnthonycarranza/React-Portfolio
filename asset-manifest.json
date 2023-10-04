@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.be05121b.css",
+    "main.js": "/React-Portfolio/static/js/main.f69fe99d.js",
+    "static/js/787.d0fc6f61.chunk.js": "/React-Portfolio/static/js/787.d0fc6f61.chunk.js",
+    "static/media/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg": "/React-Portfolio/static/media/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.5de1cc4a0444fc2d08f1.jpg",
+    "static/media/food-photographer-jennifer-pallian-8pUjhBm4cLw-unsplash.jpg": "/React-Portfolio/static/media/food-photographer-jennifer-pallian-8pUjhBm4cLw-unsplash.7eff89be8c8c8877f2d4.jpg",
+    "static/media/IMG_0007.jpeg": "/React-Portfolio/static/media/IMG_0007.408ed5bfad3f723e6c0b.jpeg",
+    "static/media/namroud-gorguis-FZWivbri0Xk-unsplash.jpg": "/React-Portfolio/static/media/namroud-gorguis-FZWivbri0Xk-unsplash.efa3c8a2601462cfd20b.jpg",
+    "static/media/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg": "/React-Portfolio/static/media/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.4a1a395b1f63942d2065.jpg",
+    "static/media/alvan-nee-1VgfQdCuX-4-unsplash.jpg": "/React-Portfolio/static/media/alvan-nee-1VgfQdCuX-4-unsplash.bcc0a25ffcd6334d63b1.jpg",
+    "static/media/dale-honeycutt-Vqco2uwrXq8-unsplash.jpg": "/React-Portfolio/static/media/dale-honeycutt-Vqco2uwrXq8-unsplash.4d4f4f3eb82db2ef5bda.jpg",
+    "static/media/web-g51b93b658_1920.jpg": "/React-Portfolio/static/media/web-g51b93b658_1920.3fe8f5f1e8b1f4593b08.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.be05121b.css.map": "/React-Portfolio/static/css/main.be05121b.css.map",
+    "main.f69fe99d.js.map": "/React-Portfolio/static/js/main.f69fe99d.js.map",
+    "787.d0fc6f61.chunk.js.map": "/React-Portfolio/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be05121b.css",
+    "static/js/main.f69fe99d.js"
+  ]
+}
