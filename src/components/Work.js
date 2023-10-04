@@ -4,6 +4,8 @@ import image2 from '../Assets/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg';
 import image3 from '../Assets/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg';
 import image4 from '../Assets/food-photographer-jennifer-pallian-8pUjhBm4cLw-unsplash.jpg';
 import image5 from '../Assets/alvan-nee-1VgfQdCuX-4-unsplash.jpg';
+import image6 from '../Assets/namroud-gorguis-FZWivbri0Xk-unsplash.jpg';
+
 import '../styles/style.css'; // Import your style.css file
 
 const Work = () => {
@@ -13,7 +15,8 @@ const Work = () => {
         'https://eanthonycarranza.github.io/Challenge03/',
         'https://eanthonycarranza.github.io/Weather-Dashboard/',
         'https://joshua-rowan.github.io/ingredient-recipe-fetcher/',
-        'https://companion-connect-2872c986be71.herokuapp.com/dashboard'
+        'https://companion-connect-2872c986be71.herokuapp.com/dashboard',
+        'https://music-verse2-57f59708a605.herokuapp.com/'
     ];
 
     const descriptions = [
@@ -21,7 +24,8 @@ const Work = () => {
         'Password Generator',
         'Weather application',
         'Recipe Maker',
-        'Companion Connect'
+        'Companion Connect',
+        'Music Verse'
     ];
 
     return (
