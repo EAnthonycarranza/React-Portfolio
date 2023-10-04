@@ -9,7 +9,7 @@ import image6 from '../Assets/namroud-gorguis-FZWivbri0Xk-unsplash.jpg';
 import '../styles/style.css'; // Import your style.css file
 
 const Work = () => {
-    const images = [image1, image2, image3, image4, image5];
+    const images = [image1, image2, image3, image4, image5, image6];
     const imageLinks = [
         'https://eanthonycarranza.github.io/Challenge01/',
         'https://eanthonycarranza.github.io/Challenge03/',
